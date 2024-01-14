@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./formdangnhap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script href="dangnhap.js"></script>
+</head>
+<body><div class="nav">
+         <a href="index.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+         <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></div>
+         
+    <div class="home">   
+    <from class="form_login" onsubmit="login()">
+        <h1>Đăng Nhập</h1>
+        <div class="login_user">
+            <input  id="email" type="text" placeholder="Email " required>
+            
+        </div>
+        <div class="password_user">
+            <input id="password" type="password" placeholder="Mật Khẩu " required>
+            
+        </div>
+        <a href="signup.html">Bạn Chưa Có Tài Khoản</a>
+        <button id="btnLoginWithForm"> Đăng Nhập</button>
+        <button class="btn" id="btnLoginWithGoogle" >Login with Google</button>
+    </from>
+    <script src="/dangnhap.js"></script>
+    <script type="module" src="/dangnhapfirebase.js"></script>
+</body>
+</html>

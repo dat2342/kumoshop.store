@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formdangky.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="nav">
+         <a href="login.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+         <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></div>
+    <div class="home">   
+    <form class="form_login" >
+        <h1>Đăng Ký</h1>
+        <div class="login_user">
+            <input type="text" placeholder="Email" required id="inputemail">
+        </div>
+        <div class="login_user">
+            <input type="text" placeholder="Họ" required id="inputfirstname">
+        </div>
+        <div class="login_user">
+            <input type="text" placeholder="Tên" required id="inputlastname">
+        </div>
+        <div class="password_user">
+            <input id="password" type="password" placeholder="Mật Khẩu" required id="password">
+        </div>
+
+        <div class="checkbox_container">
+            <div class="checkbox_man">
+                <input type="checkbox" class="checkbox" >
+                <label for="" class="man">Nam</label>
+            </div>
+            <div class="checkbox_woman">
+                <input type="checkbox" class="checkbox" >
+                <label for="" class="woman">Nữ</label>
+            </div>
+            <div class="checkbox_different">
+                <input type="checkbox" class="checkbox">
+                <label for="" class="different">Khác</label>
+            </div>
+        </div>
+        <a href="login.html">Bạn Đã Có Tài Khoản</a>
+        <button  id="btnRegister">Đăng ký </button>
+    </form>
+
+    <script type="module" src="dangky.js"></script>
+    <script type="module" src="dangkyfirebase.js"></script>
+</body>
+
+</html>
